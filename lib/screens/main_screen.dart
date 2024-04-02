@@ -1,5 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter_fitness_dashboardui/widgets/side_menu_widget.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
@@ -12,7 +14,9 @@ class MainScreen extends StatelessWidget {
         children: [
           Expanded(
             flex: 2,
-            child: Container(color: Colors.red),
+            child: SizedBox(
+              child: SideMenuWidget(),
+            ),
           ),
           Expanded(
             flex: 7,
