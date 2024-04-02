@@ -10,6 +10,7 @@ class DashboardWidget extends StatelessWidget {
       children: [
         const SizedBox(height: 18),
         const HeaderWidget(),
+        const SizedBox(height: 18),
       ],
     );
   }
